@@ -6,7 +6,7 @@ To resolve this problem, the issue has been tackled with two differents solution
 
 ### Python solution
 
-On the python program, we import each pictures and consider the first of the list as the referenced pictures on wich we will add the signal of the other. Then to create the star trail we go through each and every pixel of each pictures which is why the python program is highly time inefficient. For this example, each pictures has 24M pixel and we have stacked 25 pictures. To reduce the time inefficiency, we have compared the pixel by group of 4 pixels instead of 1 by 1 pixels. This solution is relatively accurate when we do not need to zoom in. If we search in the detail we can found the stair effect on the edge of the stars. Pixel are only added when the reach more than 10% of the reference pixel (or group of 4 pixels).
+On the python program, we import each pictures and consider the first of the list as the referenced pictures on wich we will add the signal of the other. Pixel are only added when the reach more than 10% of the reference pixel. Then to create the star trail we go through each and every pixel of each pictures which is why the python program is highly time inefficient. For this example, each pictures has 24M pixel and we have stacked 25 pictures. To reduce the time inefficiency, we have compared the pixel by group of 4 pixels instead of 1 by 1 pixels. This solution is relatively accurate when we do not need to zoom in. If we search in the detail we can found the stair effect on the edge of the stars. This python solution is also very memory hungry by its design (between 3-4 Go used) . Every picutres are stored inside one matrix. This will be optimised by only importing the pictures when need. 
 
 ### C++ solution
 

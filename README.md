@@ -15,6 +15,7 @@ On the python program, we import each picture and consider the first of the list
 | Python Result 1 by 1 pixel  |  Python Result 2 by 2 pixels |  StarStax Result |
 | ------------- | ------------- | ------------- |
 | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-Python.jpg?raw=true" alt="Star Trail 1 by 1 pixel Python" width="400"/> | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_fast2x2-Python.jpg?raw=true" alt="Star Trail 2 by 2 pixel Python" width="400"/>  | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/StarStaX_DSC_0048-DSC_0072_%C3%A9claircir.jpg" alt="Star Stax result" width="400"/>  |
+| Time: 153min  | Time: 24min  | Time: 10 sec  |
    
 </div>
       
@@ -31,6 +32,7 @@ To improve the efficiency of the program, we have implemented it in C++. When we
 | C++ Result 1 by 1 pixel  |  StarStax Result |
 | ------------- | ------------- |
 | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-C%2B%2B.jpg" alt="Star Trail 1 by 1 pixel C++" width="400"/> | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/StarStaX_DSC_0048-DSC_0072_%C3%A9claircir.jpg" alt="Star Stax result" width="400"/>  |
+| Time: 12min  | Time: 10 sec  |
 
 </div>
 

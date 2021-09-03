@@ -22,6 +22,8 @@ On the python program, we import each picture and consider the first of the list
 
 To improve the efficiency of the program, we have implemented it in C++. When we work on the 25 pictures and study pixel by pixel (instead of 4 pixels by 4 pixels on python) we complete the star trail in 12 minutes on a Ryzen 7 4700U using only one thread. This is still not comparable to other software. For example, starstax is only taking 10sec for the same pictures and gives a less important threshold effect when compared in the detail of the pictures.
 
+*Code includes a French and English version of the comments.*
+
 ####      C++ Result
 
 <div align="center">
@@ -32,4 +34,4 @@ To improve the efficiency of the program, we have implemented it in C++. When we
 
 </div>
 
-Code includes a French and English version of the comments.
+

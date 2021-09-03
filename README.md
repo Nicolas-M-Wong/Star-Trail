@@ -9,7 +9,7 @@ To resolve this problem, the issue has been tackled with two different solutions
 On the python program, we import each picture and consider the first of the list as the referenced pictures on which we will add the signal of the other. Pixels are only added when the reach more than 10% of the reference pixel. Then to create the star trail we go through each and every pixel of each picture which is why the python program is highly time inefficient (The program takes around 24 min to complete the star trail with this small simplification on a Ryzen 7 4700U using only). For this example, each picture has 24M pixel and we have stacked 25 pictures. To reduce the time inefficiency, we have compared the pixel by group of 4 pixels instead of 1 by 1 pixels. This solution is relatively accurate when we do not need to zoom in. If we search in the detail, we can find the stair effect on the edge of the stars. This python solution is also very memory hungry by its design (between 3-4 Go used). Every pictures are stored inside one matrix. This will be optimised by only importing the pictures when need.
 
 ####      Python Result
-<img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-Python.jpg?raw=true" alt="drawing" width="200"/>
+<img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-Python.jpg?raw=true" alt="drawing" width="400"/>
 
    - Python Result 1 by 1 pixel
       

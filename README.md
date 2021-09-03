@@ -30,6 +30,6 @@ To improve the efficiency of the program, we have implemented it in C++. When we
 | ------------- | ------------- |
 | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-C%2B%2B.jpg" alt="Star Trail 1 by 1 pixel C++" width="400"/> | <img src="https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/StarStaX_DSC_0048-DSC_0072_%C3%A9claircir.jpg" alt="Star Stax result" width="400"/>  |
 
-<div/>
+</div>
 
 Code includes a French and English version of the comments.

@@ -12,11 +12,11 @@ On the python program, we import each picture and consider the first of the list
 
 ![alt text](https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_1x1-Python.jpg?raw=true)
 
--Python Result 1 by 1 pixel
+   - Python Result 1 by 1 pixel
       
 ![alt text](https://github.com/Nicolas-M-Wong/Star-Trail/blob/main/Result/circum_polaire_fast2x2-Python.jpg?raw=true)
 
--Python Result 2 by 2 pixels
+   - Python Result 2 by 2 pixels
       
 ### C++ solution
 

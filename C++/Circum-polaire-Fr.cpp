@@ -10,7 +10,7 @@ using namespace cv;
 
 // Fonction pour obtenir le nom de chaque photo successivement
 // Ici les fichiers sont issus d'un appareil photo Nikon dont le prefixe est DSC_00
-// la suite correspond au numéro de la photo
+// la suite correspond au numÃ©ro de la photo
 
 string name_picture(int iteration)
 {
@@ -31,8 +31,8 @@ int main(){
 	{
 		Mat image = imread(name_picture(nb));
 
-		if (image.empty())	// Vérification si l'image existe
-		{					// Si l'image étudié n'existe pas le programme se termine et en informe l'utilisateur
+		if (image.empty())	// VÃ©rification si l'image existe
+		{					// Si l'image Ã©tudiÃ© n'existe pas le programme se termine et en informe l'utilisateur
 			cout << "Could not open or find the image" << endl;
 			system("pause"); 
 			return -1;
@@ -41,10 +41,10 @@ int main(){
 		int axis_1 = image.cols;		//4000 pour les photos de mon appareil donc dimension verticale
 		int axis_2 = image.rows;		//6000 dimension horizontale
 
-		// Nos données sont sous la forme de class cv::mat
-		// image.col(1) donne les éléments de la colonne sur les 3 couleurs
-		// De même pour image.row(1)
-		// Donc si on fait image.col(1).row(1) ça nous donne les 3 couleurs pour pour le pixel de coordonné (1,1)
+		// Nos donnÃ©es sont sous la forme de class cv::mat
+		// image.col(1) donne les Ã©lÃ©ments de la colonne sur les 3 couleurs
+		// De mÃªme pour image.row(1)
+		// Donc si on fait image.col(1).row(1) Ã§a nous donne les 3 couleurs pour pour le pixel de coordonnÃ© (1,1)
 
 		for (int i = 0; i < axis_1; i++)
 		{
@@ -61,7 +61,7 @@ int main(){
 
 						if (status)
 						{
-							image_ref.at<Vec3b>(j,i) = image.at<Vec3b>(j,i);	// On remplace le pixel de référence
+							image_ref.at<Vec3b>(j,i) = image.at<Vec3b>(j,i);	// On remplace le pixel de rÃ©fÃ©rence
 							// par le pixel correspondant dans la nouvelle image
 							layer = 3;
 						}
